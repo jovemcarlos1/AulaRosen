@@ -1,2 +1,9 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+int idade = 23;
+Console.WriteLine($"Sua idade é: {idade}");
+
+if (idade >= 18)
+    Console.WriteLine("Você pode tirar habilitação!");
+else
+    Console.WriteLine("Você não pode tirar habilitação");
+
