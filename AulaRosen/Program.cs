@@ -6,7 +6,7 @@ if (idade >= 18)
     Console.WriteLine("Você pode tirar habilitação!");
 else
     Console.WriteLine("Você não pode tirar habilitação");*/
-
+/*
 try
 {
     Console.WriteLine("Informe seu nome: ");
@@ -43,5 +43,18 @@ catch (Exception e)
     Console.WriteLine("Ocorreu um erro. Contate o Suporte Técnico.");
     Console.WriteLine(e.StackTrace);
 }
+*/
+
+using AulaRosen.uteis;
+
+SomaDoisNumeros somaDoisNumeros = new SomaDoisNumeros();
+int resultado = somaDoisNumeros.Somar(2, 4);
+Console.WriteLine(resultado);
+
+
+int medida = MetrosMilimetros.Converter(2);
+Console.WriteLine(medida);
+
+
 
 
